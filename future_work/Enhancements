@@ -1,0 +1,8 @@
+## Future Enhancements
+
+- Multi-Cycle RISC-V Processor
+- 5-Stage Pipelined RISC-V Processor
+- Hazard Detection Unit
+- Data Forwarding
+- Branch Prediction
+- Cache Memory Integration
