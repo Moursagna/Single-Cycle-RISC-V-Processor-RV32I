@@ -28,7 +28,7 @@ The design follows the classical single-cycle datapath, where each instruction c
 ## Processor Architecture
 
 The processor consists of the following modules:
-
+![RTL Schematic](images/rtl_schematic.png)
 ### Program Counter (PC)
 
 Maintains the address of the current instruction and updates the next instruction address.
@@ -101,6 +101,8 @@ LUI, AUIPC
 
 ## FPGA Implementation
 
+![FPGA Output](images/fpga_output.jpeg)
+
 Target Board:
 
 *  Basys3 FPGA
@@ -146,6 +148,8 @@ constraints/
 ## Results
 
 ✔ Functional simulation completed
+
+![Simulation Waveform](images/simulation_waveform.png)
 
 ✔ RTL and synthesis verification completed
 
